@@ -1,0 +1,12 @@
+[data-control="code"].expand .CodeMirror {
+    min-height: 940px;
+}
+
+.control-groups{
+    display: flex;
+    flex-direction: column;
+}
+
+.control-group.open[data-control-group="_css"]{
+    order: -1;
+}
